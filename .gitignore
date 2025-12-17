@@ -1,0 +1,30 @@
+# --- Arquivos Compilados e Build ---
+/bin/
+/build/
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Arquivos Específicos do Eclipse ---
+.metadata
+.recommenders
+RemoteSystemsTempFiles
+.settings/
+.loadpath
+# Se for projeto Maven, pode ignorar .project e .classpath, 
+# mas se for projeto nativo do Eclipse, mantenha-os (comente as linhas abaixo com #)
+.project
+.classpath
+.factorypath
+
+# --- Arquivos de Log ---
+*.log
+
+# --- Arquivos do Sistema Operacional ---
+.DS_Store
+Thumbs.db
+
+# --- Configurações de IDEs (caso use VS Code também) ---
+.vscode/
